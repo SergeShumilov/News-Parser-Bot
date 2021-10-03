@@ -35,7 +35,7 @@ async def get_rbk(message: types.Message):
 
 
 @dp.message_handler(commands='ria')
-async def get_rbk(message: types.Message):
+async def get_ria(message: types.Message):
     await message.answer("What is your key word?")
 
     @dp.message_handler(content_types=types.ContentType.TEXT)
